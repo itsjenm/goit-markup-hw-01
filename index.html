@@ -5,34 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio Page</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
   </head>
   <body>
     <header>
-      <div>
-        <nav>
-          <a href="#">WebStudio</a>
-          <ul>
-            <li><a href="index.html">Studio</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contacts.html">Contacts</a></li>
+      <div class="navbar">
+        <nav id="logo">
+          <a href="index.html" id="WebStudio">Studio</a>
+          <ul class="mainNav">
+            <li><a href="index.html" class="link" id="studio">Studio</a></li>
+            <li><a href="portfolio.html" class="link" id="portfolio">Portfolio</a></li>
+            <li><a href="contacts.html" class="link" id="contacts">Contacts</a></li>
           </ul>
         </nav>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="right-nav">
+          <li><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
     <main>
       <section id="main-header">
-        <div>
+        <div class="header">
           <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-          <button type="button">Request our service</button>
+          <button type="button" class="request-button">Request our service</button>
         </div>
       </section>
       <section id="our-benefits">
         <div>
-          <h2>Our Benefits</h2>
+          <h2 class="benefits">Our Benefits</h2>
           <ul>
             <li><h3>ATTENTION TO DETAILS</h3></li>
             <li>
@@ -99,7 +110,7 @@
         </div>
       </section>
       <section id="our-team">
-        <div>
+        <div class="team">
           <h2>Our Team</h2>
           <ul>
             <li>
@@ -149,7 +160,7 @@
       </section>
     </main>
     <footer>
-      <div>
+      <div class="footer">
         <a href="#">WebStudio</a>
         <address>
           <ul>
