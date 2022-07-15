@@ -99,3 +99,16 @@ p {
     color: #FFFFFF;
 }
 
+.footer {
+    background-color: #2F303A;
+}
+
+.footer #WebStudio {
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF99;
+    text-decoration: none;
+    font-style: normal;
+}
