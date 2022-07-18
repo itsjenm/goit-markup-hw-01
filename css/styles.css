@@ -19,16 +19,14 @@ ul {
 }
 
 
-.navbar a:hover {
+.nav-link-selected a {
     color: #2196F3;
 }
-
 
 .navbar .mailto,
 .navbar .tel {
     color: grey;
 }
-
 
 
 #WebStudio {
@@ -99,22 +97,36 @@ p {
     font-weight: 700;
 }
  
-.team .position,
+
 .team .name {
     text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.button { 
+.team .position {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-filter { 
     background-color: #F5F4FA;
     height: 38px;
     font-size: 16px;
     font-weight: 500;
     border: none;
+    border-radius: 4px;
     text-align: left;
+    cursor: pointer;
 }
 
-.button:hover, 
-.button:focus {
+.button-filter:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.button-filter-selected {
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -128,7 +140,7 @@ p {
 }
 
 .footer a {
-    color: #FFFFFF99;
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
     font-style: normal;
 }
