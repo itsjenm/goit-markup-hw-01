@@ -23,9 +23,13 @@ ul {
     color: #2196F3;
 }
 
-.navbar .mailto,
-.navbar .tel {
+.nav-contacts a {
     color: grey;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    color: #2196F3;
 }
 
 
@@ -40,7 +44,7 @@ ul {
     content: 'Web'; color: #2196F3;
 }
 
-#main-header {
+#main-hero {
     background-color: #2F303A;
 }
 
@@ -59,7 +63,14 @@ ul {
     font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
+    cursor: pointer;
 
+}
+
+.request-button:hover,
+.request-button:focus {
+    color: #2196F3;
+    
 }
 
 .benefits {
@@ -98,13 +109,13 @@ p {
 }
  
 
-.team .name {
+.container .name {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
 }
 
-.team .position {
+.container .position {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -121,7 +132,8 @@ p {
     cursor: pointer;
 }
 
-.button-filter:hover {
+.button-filter:hover,
+.button-filter:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
